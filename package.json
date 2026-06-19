@@ -1,0 +1,26 @@
+{
+  "name": "anvl-token-gate",
+  "version": "1.0.0",
+  "description": "Next.js middleware and React hooks for $ANVL token-gated feature access.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": ["anvl", "solana", "token-gate", "nextjs", "web3"],
+  "license": "MIT",
+  "peerDependencies": {
+    "next": ">=14.0.0",
+    "react": ">=18.0.0",
+    "@solana/web3.js": ">=1.90.0"
+  },
+  "dependencies": {
+    "jose": "^5.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.73",
+    "typescript": "^5.4.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  }
+}
